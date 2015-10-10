@@ -3,10 +3,12 @@
   { 
   console.log("window loaded");
   document.getElementById("list").innerHTML += itemText;  // Inserts loop into HTML
+  document.getElementById("author").innerHTML += author;
   }
 
   // Global Variables.
   var itemText = "";  // Sets Text and adds li .
+  var author = "Mackenzie Abby";
 
   // Fizz Buzz Loop
   for (var i = 1; i <= 100; i++)
